@@ -29,6 +29,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 
 p {
   font-weight: normal;
@@ -55,7 +58,6 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
-  opacity: 0.7;
 }
 
 nav a:hover,
@@ -91,6 +93,10 @@ nav a:hover,
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+}
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -133,6 +139,44 @@ nav a:hover,
 .logo {
   max-height: 40px;
 }
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -142,6 +186,7 @@ nav a:hover,
   h2 {
     font-size: 44px;
   }
+
   .hero {
     padding: 80px 20px;
   }
